@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Sujitha S | Resume</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(
+        -45deg,
+        #0b1020,
+        #151c35,
+        #1d1135,
+        #0f172a
+    );
+    background-size:400% 400%;
+    animation:gradient 12s ease infinite;
+    color:white;
+    padding:40px 20px;
+}
+
+@keyframes gradient{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.header{
+    text-align:center;
+    padding:30px;
+    margin-bottom:30px;
+
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:25px;
+}
+
+.header h1{
+    font-size:3rem;
+
+    background:linear-gradient(
+        90deg,
+        #c084fc,
+        #f472b6,
+        #22d3ee
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.header p{
+    margin-top:10px;
+    color:#ddd;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,0.15);
+
+    border-radius:25px;
+    padding:25px;
+    margin-bottom:25px;
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.heading{
+    color:#c084fc;
+    margin-bottom:15px;
+    font-size:1.6rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    padding:10px 18px;
+    border-radius:30px;
+
+    background:rgba(192,132,252,0.15);
+    border:1px solid rgba(192,132,252,0.5);
+
+    transition:0.3s;
+}
+
+.skill:hover{
+    background:linear-gradient(
+        135deg,
+        #c084fc,
+        #f472b6
+    );
+    transform:translateY(-3px);
+}
+
+.project{
+    margin-bottom:20px;
+}
+
+.project h4{
+    color:#22d3ee;
+    margin-bottom:8px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:20px;
+    color:#ccc;
+}
+
+@media(max-width:768px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .header h1{
+        font-size:2rem;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>SUJITHA S</h1>
+        <p>
+             sujisaravanan.nkl@gmail.com |
+             9345749782
+        </p>
+    </div>
+
+    <!-- Summary -->
+    <div class="card">
+        <h2 class="heading">Profile Summary</h2>
+
+        <p>
+            Motivated and enthusiastic Artificial Intelligence and Machine
+            Learning student with a strong foundation in programming,
+            machine learning and data analysis. Passionate about developing
+            intelligent solutions to real-world problems through technology.
+            Possesses leadership, teamwork and discipline skills gained
+            through active participation in the National Cadet Corps (NCC).
+        </p>
+    </div>
+
+    <div class="grid">
+
+        <!-- Left Side -->
+        <div>
+
+            <div class="card">
+                <h2 class="heading">Education</h2>
+
+                <p>
+                    <strong>B.Tech – Artificial Intelligence and Machine Learning</strong><br>
+                    Kongu Engineering College, Erode<br>
+                    2024 – 2028
+                </p>
+            </div>
+
+            <div class="card">
+                <h2 class="heading">Academic Projects</h2>
+
+                <div class="project">
+                    <h4>Auto Command Completion Tool</h4>
+                    <p>
+                        Developed a command suggestion system to improve user
+                        productivity through intelligent command prediction.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h4>Early Disease Prediction Using Machine Learning</h4>
+                    <p>
+                        Applied machine learning algorithms to predict diseases
+                        based on patient data for early diagnosis and healthcare support.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="heading">Experience</h2>
+
+                <p>
+                    <strong>Fresher</strong><br>
+                    Seeking opportunities to apply academic knowledge and gain
+                    practical industry experience.
+                </p>
+            </div>
+
+<div class="card">
+                <h2 class="heading">Leadership & Activities</h2>
+
+                <ul>
+                    <li>Active NCC Cadet</li>
+                    <li>Participated in leadership and community service activities</li>
+                    <li>Developed teamwork, discipline and communication skills</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+        <div>
+
+            <div class="card">
+                <h2 class="heading">Technical Skills</h2>
+
+                <div class="skills">
+                    <div class="skill">Python</div>
+                    <div class="skill">Java</div>
+                    <div class="skill">C Programming</div>
+                    <div class="skill">Machine Learning</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="heading">Soft Skills</h2>
+
+                <div class="skills">
+                    <div class="skill">Leadership</div>
+                    <div class="skill">Teamwork</div>
+                    <div class="skill">Problem Solving</div>
+                    <div class="skill">Communication</div>
+                    <div class="skill">Time Management</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="heading">Certifications</h2>
+
+                <ul>
+                    <li>Advanced C Programming</li>
+                    <li>Mobile Application Development Using Flutter</li>
+                    <li>MATLAB Programming and Applications</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 SUJITHA S
+    </div>
+
+</div>
+
+</body>
+</html>
